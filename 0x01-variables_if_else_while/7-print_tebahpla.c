@@ -2,20 +2,19 @@
 
 
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - prints the lowercase alphabet in reverse, followed by a new line
  *
  * Return: Always 0.
+ *
  */
 
 int main(void)
 {
 	char letter;
 
-	for (letter = '0'; letter <= '9'; letter++)
+	for (letter = 'z'; letter >= 'a'; letter--)
 
-	{
 	putchar(letter);
-	}
 
 	putchar('\n');
 
